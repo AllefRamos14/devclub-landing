@@ -1,60 +1,98 @@
 # 🚀 DevClub Landing Page
 
-Uma landing page moderna e responsiva desenvolvida para o desafio **Full Stack do DevClub**.
+Landing page institucional moderna e responsiva, desenvolvida como parte do **desafio técnico Full Stack (PJ, remoto)** do DevClub.
 
-O objetivo foi criar uma experiência visual premium, com foco em animações, microinterações, performance e código organizado, utilizando tecnologias modernas do ecossistema React.
+O objetivo foi construir uma experiência visual premium — inspirada em produtos SaaS — com foco em animações, microinterações, performance e organização de código, utilizando o ecossistema React moderno.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
 ![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?logo=styledcomponents)
 ![Framer Motion](https://img.shields.io/badge/Framer--Motion-Animations-black)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Deploy](https://img.shields.io/badge/deploy-Vercel-000000?logo=vercel)
+
+---
+
+## 📑 Índice
+
+- [Preview](#-preview)
+- [Demo](#-demo)
+- [Sobre o desafio](#-sobre-o-desafio)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias](#-tecnologias)
+- [Decisões técnicas](#-decisões-técnicas)
+- [Estrutura do projeto](#-estrutura-do-projeto)
+- [Como executar](#-como-executar)
+- [Objetivos do projeto](#-objetivos-do-projeto)
+- [Destaques](#-destaques)
+- [Autor](#-autor)
+- [Licença](#-licença)
 
 ---
 
 ## 📸 Preview
 
-> Adicione um print da página aqui.
-
 ![Preview](./public/preview.png)
+
+> 💡 Dica: um GIF mostrando scroll, animações e microinterações costuma comunicar muito mais impacto visual do que um print estático — vale considerar substituir ou complementar.
 
 ---
 
 ## 🔗 Demo
 
-🌐 **Projeto Online**
+🌐 **Projeto online:** [devclub-landing.vercel.app](https://SEU-PROJETO.vercel.app)
 
-https://SEU-PROJETO.vercel.app
+---
+
+## 🎯 Sobre o desafio
+
+Este projeto foi desenvolvido para o processo seletivo de **Programador(a) Full Stack (contrato PJ, remoto)** do DevClub. O desafio consistia em criar uma página institucional disruptiva, cobrindo seções como formações, sobre a empresa, alunos, empresas parceiras e tutores — sem obrigatoriedade de dados reais.
+
+Critérios de avaliação do desafio:
+
+| Critério | Peso |
+|---|---|
+| Impacto visual e originalidade | 50% |
+| Animações e microinterações | 30% |
+| Qualidade e organização do código | 20% |
 
 ---
 
 ## ✨ Funcionalidades
 
 - 🎨 Interface moderna inspirada em produtos SaaS
-- 📱 Layout 100% responsivo
-- ⚡ Animações com Framer Motion
-- ✨ Microinterações
-- 🚀 Alta performance
-- ♿ Boas práticas de acessibilidade
-- 🎯 Código organizado e escalável
-- 💎 Design premium
+- 📱 Layout 100% responsivo (desktop, tablet e mobile)
+- ⚡ Animações fluidas com Framer Motion
+- ✨ Microinterações em botões, cards e navegação
 - 📊 Dashboard com métricas animadas
-- 🖥️ Componentização reutilizável
+- 🖥️ Componentização reutilizável e escalável
+- ♿ Boas práticas de acessibilidade
+- 🚀 Foco em performance e carregamento rápido
 
 ---
 
-# 🛠 Tecnologias
+## 🛠 Tecnologias
 
-- React
-- TypeScript
-- Vite
-- Styled Components
-- Framer Motion
-- Lucide React
+- [React 19](https://react.dev/)
+- [TypeScript 5](https://www.typescriptlang.org/)
+- [Vite 7](https://vitejs.dev/)
+- [Styled Components](https://styled-components.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React](https://lucide.dev/)
 
 ---
 
-# 📂 Estrutura do projeto
+## 🧠 Decisões técnicas
+
+- **Styled Components** em vez de Tailwind: escolhido para ter controle total sobre theming dinâmico (dark mode) e escopo de estilos por componente, facilitando a escalabilidade da UI.
+- **Framer Motion**: usado para animações de entrada, transições de seção e microinterações, mantendo uma API declarativa e boa performance.
+- **Vite**: build tool escolhida pela velocidade de desenvolvimento (HMR) e build de produção otimizado.
+- **Arquitetura por seções (`sections/`)**: cada bloco da landing page é isolado, favorecendo reuso, testes e manutenção independente.
+
+---
+
+## 📂 Estrutura do projeto
 
 ```text
 src/
@@ -76,87 +114,69 @@ src/
 │   └── Footer/
 │
 ├── pages/
-│
 ├── styles/
-│
 ├── hooks/
-│
 ├── utils/
-│
 └── theme/
 ```
 
 ---
 
-# 🚀 Como executar
+## 🚀 Como executar
 
-Clone o projeto
+**Pré-requisitos:** Node.js 18+ e npm instalados.
 
 ```bash
+# Clone o projeto
 git clone https://github.com/SEU-USUARIO/devclub-landing.git
-```
 
-Entre na pasta
-
-```bash
+# Entre na pasta
 cd devclub-landing
-```
 
-Instale as dependências
-
-```bash
+# Instale as dependências
 npm install
-```
 
-Execute
-
-```bash
+# Execute em modo desenvolvimento
 npm run dev
-```
 
-Build de produção
-
-```bash
+# Gere o build de produção
 npm run build
 ```
 
 ---
 
-# 🎯 Objetivos do projeto
+## 🎯 Objetivos do projeto
 
-- Criar uma landing page impactante
-- Aplicar boas práticas de Front-end
-- Demonstrar organização de código
-- Desenvolver componentes reutilizáveis
-- Construir uma interface moderna
+- Criar uma landing page impactante e disruptiva
+- Aplicar boas práticas de front-end moderno
+- Demonstrar organização e legibilidade de código
+- Desenvolver componentes reutilizáveis e escaláveis
 - Explorar animações sem comprometer performance
 
 ---
 
-# 📈 Destaques
+## 📈 Destaques
 
-- Código escrito em TypeScript
-- Componentização escalável
-- Styled Components para estilização
-- Arquitetura organizada
-- Responsividade para desktop, tablet e mobile
-- Microinterações com Framer Motion
-- Foco em UX/UI
+- Código 100% em TypeScript
+- Componentização escalável e reutilizável
+- Estilização com Styled Components e tema centralizado
+- Responsividade completa (desktop, tablet e mobile)
+- Microinterações e animações com Framer Motion
+- Foco constante em UX/UI
 
 ---
 
-# 💻 Autor
+## 💻 Autor
 
-**Allef Sousa**
+**Allef Sousa** — Full Stack Developer
 
-🔗 LinkedIn  
-https://www.linkedin.com/in/SEU-LINK
+Desenvolvedor com mais de 2 anos de experiência freelance, atuando com React, TypeScript, Node.js e APIs REST.
 
-🐙 GitHub  
-https://github.com/SEU-USUARIO
+🔗 [LinkedIn](https://www.linkedin.com/in/SEU-LINK)
+🐙 [GitHub](https://github.com/SEU-USUARIO)
 
 ---
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins de estudo e participação no desafio técnico do DevClub.
+Este projeto foi desenvolvido para fins de estudo e participação no desafio técnico do DevClub. Distribuído sob a licença MIT — veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
