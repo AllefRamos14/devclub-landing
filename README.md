@@ -172,8 +172,8 @@ npm run build
 
 Desenvolvedor com mais de 2 anos de experiência freelance, atuando com React, TypeScript, Node.js e APIs REST.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/SEU-LINK)
-🐙 [GitHub](https://github.com/SEU-USUARIO)
+🔗 [LinkedIn](https://www.linkedin.com/in/allef-ramos/)
+🐙 [GitHub](https://github.com/AllefRamos14)
 
 ---
 
