@@ -1,0 +1,4 @@
+/* Reset lives in GlobalStyles.ts (styled-components) */
+html, body, #root {
+  height: 100%;
+}

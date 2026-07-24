@@ -1,0 +1,20 @@
+{
+  "name": "DevClub",
+  "short_name": "DevClub",
+  "description": "Formação prática em programação para construir uma carreira em tecnologia.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07090E",
+  "theme_color": "#07090E",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
