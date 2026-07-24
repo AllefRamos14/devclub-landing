@@ -661,36 +661,6 @@ export const MilestoneCard = styled.div<HighlightProps>`
   }
 `;
 
-export const DecorativeYear = styled.span`
-  position: absolute;
-  top: 50%;
-  right: 16px;
-  z-index: -1;
-
-  color: rgba(255, 255, 255, 0.035);
-
-  font-family: ${({ theme }) => theme.font.display};
-  font-size: clamp(5rem, 10vw, 9rem);
-  font-weight: ${({ theme }) => theme.weight.bold};
-  line-height: 1;
-  letter-spacing: -0.08em;
-
-  opacity: 0.65;
-
-  transform: translateY(-50%);
-
-  transition:
-    transform ${({ theme }) => theme.transition.slow},
-    opacity ${({ theme }) => theme.transition.slow};
-
-  user-select: none;
-  pointer-events: none;
-
-  @media screen and (max-width: 600px) {
-    right: 4px;
-    font-size: 5.2rem;
-  }
-`;
 
 export const CardTop = styled.div`
   position: relative;

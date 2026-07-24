@@ -704,37 +704,6 @@ const MilestoneCard = styled.div<HighlightProps>`
   }
 `;
 
-const DecorativeYear = styled.span`
-  position: absolute;
-  top: 50%;
-  right: 16px;
-  z-index: -1;
-
-  color: rgba(255, 255, 255, 0.035);
-
-  font-family: ${({ theme }) => theme.font.display};
-  font-size: clamp(5rem, 10vw, 9rem);
-  font-weight: ${({ theme }) => theme.weight.bold};
-  line-height: 1;
-  letter-spacing: -0.08em;
-
-  opacity: 0.65;
-
-  transform: translateY(-50%);
-
-  transition:
-    transform ${({ theme }) => theme.transition.slow},
-    opacity ${({ theme }) => theme.transition.slow};
-
-  user-select: none;
-  pointer-events: none;
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    right: 4px;
-    font-size: 5.2rem;
-  }
-`;
-
 const CardTop = styled.div`
   position: relative;
   z-index: 2;
@@ -1264,12 +1233,7 @@ export function QuemSomos() {
                         } as SpotlightStyle
                       }
                     >
-                      <DecorativeYear
-                        data-card-year="true"
-                        aria-hidden="true"
-                      >
-                        {milestone.year}
-                      </DecorativeYear>
+                    
 
                       <CardTop>
                         <CardEyebrow

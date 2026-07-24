@@ -5,7 +5,6 @@ import {
   CardArrow,
   CardEyebrow,
   CardTop,
-  DecorativeYear,
   Milestone,
   MilestoneCard as MilestoneCardContainer,
   MilestoneDescription,
@@ -81,12 +80,6 @@ export function MilestoneCard({
           } as SpotlightStyle
         }
       >
-        <DecorativeYear
-          data-card-year="true"
-          aria-hidden="true"
-        >
-          {milestone.year}
-        </DecorativeYear>
 
         <CardTop>
           <CardEyebrow
