@@ -33,7 +33,9 @@ O objetivo foi construir uma experiência visual premium — inspirada em produt
 
 ## 📸 Preview
 
-![Preview](./assets/preview.png)
+<p align="center">
+  <img src="./assets/preview.png" alt="Preview da aplicação" width="1000">
+</p>
 
 > 💡 Dica: um GIF mostrando scroll, animações e microinterações costuma comunicar muito mais impacto visual do que um print estático — vale considerar substituir ou complementar.
 
